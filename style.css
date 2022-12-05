@@ -1,0 +1,230 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background: hsl(0, 80%, 67%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+    padding-left: 2%;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    width: 50%;
+    text-align: end;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+nav{
+    background: rgb(248, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.donor_form{
+    margin-left: 2%;
+    width: 46%;
+    background: rgb(248, 245, 245) ;
+    border-radius: 2%;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_fo{
+    text-align: left;
+    padding-left: 4%;
+}
+.donor_fo input[type=text]{
+    width: 75%;
+}
+.donor_fo h3{
+    font-size: 170%;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+.donor_vid{
+    margin-right: 2%;
+    width: 46%;
+    background: rgb(248, 245, 245) ;
+    border-radius: 2%;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_vid{
+    font-size: 160%;
+    color: black;
+    text-decoration: underline;
+}
+hr{
+    border: 1px solid black;
+}
+.middle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.middle2{
+    background: rgb(248, 245, 245);
+    border-radius: 2%;
+    color: black;
+    text-align: left;
+    padding: 1%;
+    width: 90%;
+}
+.middle2 h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.middle2 h4{
+    text-align: center;
+    color: black;
+}
+.middle2 h3{
+    text-align: center;
+}
+.middle2 p{
+    text-align: center;
+}
+.info{
+    display: flex;
+}
+.lower{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.lower2{
+    background: rgb(248, 245, 245);
+    border-radius: 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.data{
+    background: rgb(248, 245, 245);
+    width: 70%;
+}
+.heading{
+    text-decoration: underline;
+    font-size: 140%;
+}
+.register{
+    padding-bottom: 1%;
+}
+.register form[type=text]{
+    width: 100%;
+}
+.refer{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.refer2{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 70%;
+}
+.refer_img{
+    width: 70%;
+}
+.refer_cont{
+    width: 30%;
+    padding-top: 3%;
+}
+.why_donate{
+    display: flex;
+    justify-content: center;
+}
+.why_donate2{
+    background: white;
+    width: 70%;
+    text-align: center;
+}
+.why_donate2 h1{
+    text-decoration: underline;
+}
+.donate_main{
+    display: flex;
+    justify-content: space-around;
+}
+.donate_img{
+    width: 30%;
+}
+.why_donate_cont{
+    width: 65%;
+    padding-top: 5%;
+}
+.who_give_blood{
+    display: flex;
+    justify-content: center;
+}
+.who_blood{
+    background: white;
+    width: 70%;
+}
+.who_blood h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.blood_give_data{
+    padding-left: 2%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-us{
+    background: white;
+    width:70%;
+    padding: 2%;
+}
+.contact-us{
+    text-align: center;
+    text-decoration: underline;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+}
